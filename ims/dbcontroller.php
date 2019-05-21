@@ -1,13 +1,13 @@
 <?php
 class DBController {
 	private $host = "localhost";
-	private $user = "root";
-	private $password = "";
-	private $database = "ims";
+	private $user = "kappsxyz_ims";
+	private $password = "kappsxyz@007";
+	private $database = "kappsxyz_ims";
 	private $conn;
 	
 	function __construct($database) {
-		$this->database = $database;
+		$this->database = "kappsxyz_ims";//$database;
 		$this->conn = $this->connectDB();
 	}
 	
